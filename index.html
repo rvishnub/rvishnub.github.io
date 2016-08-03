@@ -11,37 +11,7 @@
 		<meta name ="description" content ="This is a website designed for learning about Renuka's hobby, namely, travel.">
 		<meta name ="keywords" content ="hobby, travel, renuka">
 		<meta name ="author" content ="Renuka">
-		
-		<style>
-			ul {
-			    list-style-type: none;
-			    margin: 0;
-			    padding: 0;
-			    overflow: hidden;
-			    background-color: #333;
-			}
-
-			li {
-			    float: left;
-			}
-
-			li a {
-			    display: block;
-			    color: white;
-			    text-align: center;
-			    padding: 14px 16px;
-			    text-decoration: none;
-			}
-
-			li a:hover:not(.active) {
-			    background-color: lightblue;
-			    color: black;
-			}
-
-			.active {
-			    background-color: darkblue;
-			}
-		</style>
+		<link rel="import" href="/includes/navigation.html">
 
 		<style>
 			.newspaper {
@@ -57,21 +27,21 @@
 	</head>
 	
 	<body>
- 
 
 		<div class="container">
 			<div class="row">
 				<div class=“col-sm-4”> </div>
 				<div w3-include-html="\includes\navigation.html"></div>
 
-				<aside>
 					<p>I don't have many hobbies, but I LOVE to travel!</p>
 						<div  class="newspaper">
 							<p>Some sample text to show the responsive design.  sample text to show the responsive design.  sample text to show the responsive design.  sample text to show the responsive design.  sample text to show the responsive design.  sample text to show the responsive design.  sample text to show the responsive design.  sample text to show the responsive design.  sample text to show the responsive design.</p>
 						</div>		
-						<br>	
+						<br>
+
+							<p><font color="darkred">More sample text to show the responsive design.  sample text to show the responsive design.  sample text to show the responsive design.  sample text to show the responsive design.  sample text to show the responsive design.  sample text to show the responsive design.  sample text to show the responsive design.  sample text to show the responsive design.  sample text to show the responsive design.  </font></p>	
 				<div class=“col-sm-8”> </div>
-					<p>sample text to show the responsive design.  sample text to show the responsive design.  sample text to show the responsive design.  sample text to show the responsive design.  sample text to show the responsive design.  sample text to show the responsive design.  sample text to show the responsive design.  sample text to show the responsive design.  sample text to show the responsive design.  </p>
+	
 			</div>
 		</div>
 
@@ -96,9 +66,12 @@
 			<tr><td>Japanese Tea Garden</td></tr>
 			<tr><td>Sausalito</td></tr>
 		</table>
-		</aside>
 
-		<script>
-		w3IncludeHTML();
-		</script>
+	  <script>
+	    var link = document.querySelector('link[rel="import"]');
+	    var content = link.import;
+	    var el = content.querySelector('./includes/navigation');
+	    document.body.appendChild(el.cloneNode(true));
+	  </script>
+
 	</body>

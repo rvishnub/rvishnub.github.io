@@ -1,0 +1,70 @@
+body {
+	background-color: gold;
+}
+h1 {
+	color: darkblue;
+	}
+h2 {
+	font-family: "Matura MT Script Capitals", Times New Roman, Serif;
+	font-size: 48px;
+}
+
+h3 {
+	align="center";
+	color: white;
+}
+h4 {
+	font-family: "Century Gothic", Times New Roman, Serif;
+	font-color:  deeppink;
+}
+h5 {
+	font-color: black;
+}
+h6 {
+	font-stretch: extra-expanded;
+}
+html {
+
+}
+form {
+	color: #CC0000;
+}
+p {
+    color: black;
+}
+.boldClass {
+	font-weight:bold;
+}
+#bigID {
+	font-size:24px;
+}
+.italic {
+	font-style: italic;
+}
+.oblique {
+	font-style: oblique;
+}
+.center{
+    width:200px;
+    margin:0 auto;
+    text-align:left;
+}
+
+a:hover {
+    background-color: blue;
+}
+<!* {
+	background-color: blue;
+	background-opacity=".1s";
+}>
+
+.newspaper {
+    -webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+    -webkit-column-width: 100px; /* Chrome, Safari, Opera */
+    -moz-column-width: 100px; /* Firefox */
+    column-width: 100px;
+}
+
+

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<script src="http://www.w3schools.com/lib/w3data.js"></script>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1”>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>Renuka's Travels</title>
+		<link rel="stylesheet" type="text/css" href="css\bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="styles.css"> 
+		<meta name ="description" content ="This is a website designed for learning about Renuka's hobby, namely, travel.">
+		<meta name ="keywords" content ="hobby, travel, renuka">
+		<meta name ="author" content ="Renuka">
+		
+		<style>
+			ul {
+			    list-style-type: none;
+			    margin: 0;
+			    padding: 0;
+			    overflow: hidden;
+			    background-color: #333;
+			}
+
+			li {
+			    float: left;
+			}
+
+			li a {
+			    display: block;
+			    color: white;
+			    text-align: center;
+			    padding: 14px 16px;
+			    text-decoration: none;
+			}
+
+			li a:hover:not(.active) {
+			    background-color: lightblue;
+			    color: black;
+			}
+
+			.active {
+			    background-color: darkblue;
+			}
+		</style>
+
+		<style>
+			.newspaper {
+			    -webkit-column-count: 3; /* Chrome, Safari, Opera */
+			    -moz-column-count: 3; /* Firefox */
+			    column-count: 3;
+			    -webkit-column-width: 100px; /* Chrome, Safari, Opera */
+			    -moz-column-width: 100px; /* Firefox */
+			    column-width: 100px;
+			}
+		</style>
+
+	</head>
+	
+	<body>
+ 
+
+		<div class="container">
+			<div class="row">
+				<div class=“col-sm-4”> </div>
+				<div w3-include-html="\includes\navigation.html"></div>
+
+				<aside>
+					<p>I don't have many hobbies, but I LOVE to travel!</p>
+						<div  class="newspaper">
+							<p>Some sample text to show the responsive design.  sample text to show the responsive design.  sample text to show the responsive design.  sample text to show the responsive design.  sample text to show the responsive design.  sample text to show the responsive design.  sample text to show the responsive design.  sample text to show the responsive design.  sample text to show the responsive design.</p>
+						</div>		
+						<br>	
+				<div class=“col-sm-8”> </div>
+					<p>sample text to show the responsive design.  sample text to show the responsive design.  sample text to show the responsive design.  sample text to show the responsive design.  sample text to show the responsive design.  sample text to show the responsive design.  sample text to show the responsive design.  sample text to show the responsive design.  sample text to show the responsive design.  </p>
+			</div>
+		</div>
+
+
+		<h2 align="center">Travels</h2>
+		<table align="center">
+			<tr class="oblique"><th>DATE</th><th width="10px"></th><th>LOCATION</th></tr>
+			<tr><td>Jun 2015</td><td width="10px"></td><td>Portland, Oregon</td></tr>
+			<tr><td>Oct 2015</td><td width="10px"></td><td>Indore, India</td></tr>
+			<tr><td>March 2016</td><td width="10px"></td><td>San Diego, California</td></tr>
+			<tr><td>May 2016</td><td width="10px"></td><td>San Jose, California</td></tr>
+		</table>
+		<h2 align="center">Sights Seen</h2>
+		
+		<table class="center">
+			<tr><td><a href="file:///C:/Users/Renuka/Desktop/MuirWoods.html">Muir Woods</a></td></tr>
+			<tr><td><a href="file:///C:/Users/Renuka/Desktop/Dharamsala.html">Dharamsala</a></td></tr>
+			<tr><td>Portland Riverwalk</td></tr>
+			<tr><td>Laguna Beach</td></tr>
+			<tr><td>Newport Beach</td></tr>
+			<tr><td>Huntington Beach</td></tr>
+			<tr><td>Japanese Tea Garden</td></tr>
+			<tr><td>Sausalito</td></tr>
+		</table>
+		</aside>
+
+		<script>
+		w3IncludeHTML();
+		</script>
+	</body>

@@ -53,18 +53,4 @@ p {
 a:hover {
     background-color: blue;
 }
-<!* {
-	background-color: blue;
-	background-opacity=".1s";
-}>
-
-.newspaper {
-    -webkit-column-count: 3; /* Chrome, Safari, Opera */
-    -moz-column-count: 3; /* Firefox */
-    column-count: 3;
-    -webkit-column-width: 100px; /* Chrome, Safari, Opera */
-    -moz-column-width: 100px; /* Firefox */
-    column-width: 100px;
-}
-
 

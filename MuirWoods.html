@@ -7,21 +7,69 @@
 		<meta name ="description" content ="This is a website designed for learning about Renuka's hobby, namely, travel.">
 		<meta name ="keywords" content ="hobby, travel, renuka">
 		<meta name ="author" content ="Renuka">
+	
 	</head>
+	
 	<body>
-	<h2>Muir Woods</h2>
-	<h4 class="oblique">Muir Woods is located north of San Francisco, on the other side of the Golden Gate Bridge.</h4>
-	<img src="woods.jpg" width=200px rotate="90deg">
-	<br>
-	<p>
-	If you drive all the way past the Woods, you will eventually arrive at Muir Beach.</p>
-	<img src="beach1.jpg" width=400px><br>
-	<img src="beach2.jpg" width=400px>
-	</body>
-	<br>
-	<p>We spent half of the day there.</p>
-	<video width="320" height="240" controls>
-	  <source src="PLACEHOLDER" type="video/mp4">
-	  <!source src="movie.ogg" type="video/ogg">
-	Your browser does not support the video tag.
-	</video>
+
+		<div><!-- this is the navbar-->
+			<style>
+				ul {
+				    list-style-type: none;
+				    margin: 0;
+				    padding: 0;
+				    overflow: hidden;
+				    background-color: #333;
+				}
+
+				li {
+				    float: left;
+				}
+
+				li a {
+				    display: block;
+				    color: white;
+				    text-align: center;
+				    padding: 14px 16px;
+				    text-decoration: none;
+				}
+
+				li a:hover:not(.active) {
+				    background-color: lightblue;
+				    color: black;
+				}
+
+				.active {
+				    background-color: blue;
+				}
+			</style>
+
+		
+			<nav>
+				<img src="includes/travel.jpg" width=100%>
+				<ul>
+					<li><a class="active" href="#home">Home</a></li>
+					<li><a href="http://rvishnub.github.io/Dharamsala.html">Dharamsala</a></li>
+					<li><a href="http://rvishnub.github.io/MuirWoods.html">Muir Woods</a></li>
+					<li><a href="#about">About</a></li>
+				</ul>
+			</nav>
+		</div>
+
+		
+		<h2>Muir Woods</h2>
+		<h4 class="oblique">Muir Woods is located north of San Francisco, on the other side of the Golden Gate Bridge.</h4>
+		<img src="woods.jpg" width=200px rotate="90deg">
+		<br>
+		<p>
+		If you drive all the way past the Woods, you will eventually arrive at Muir Beach.</p>
+		<img src="beach1.jpg" width=400px><br>
+		<img src="beach2.jpg" width=400px>
+		</body>
+		<br>
+		<p>We spent half of the day there.</p>
+		<video width="320" height="240" controls>
+		  <source src="PLACEHOLDER" type="video/mp4">
+		  <!source src="movie.ogg" type="video/ogg">
+		Your browser does not support the video tag.
+		</video>

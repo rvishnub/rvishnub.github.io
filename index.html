@@ -27,45 +27,95 @@
 	</head>
 	
 	<body>
+		<style>
+			ul {
+			    list-style-type: none;
+			    margin: 0;
+			    padding: 0;
+			    overflow: hidden;
+			    background-color: #333;
+			}
+
+			li {
+			    float: left;
+			}
+
+			li a {
+			    display: block;
+			    color: white;
+			    text-align: center;
+			    padding: 14px 16px;
+			    text-decoration: none;
+			}
+
+			li a:hover:not(.active) {
+			    background-color: lightblue;
+			    color: black;
+			}
+
+			.active {
+			    background-color: blue;
+			}
+		</style>
+
+		<div>
+			<nav>
+				<img src="includes/travel.jpg" width=100%>
+					<ul>
+				  <li><a class="active" href="#home">Home</a></li>
+				  <li><a href="http://rvishnub.github.io/Dharamsala.html">Dharamsala</a></li>
+				  <li><a href="http://rvishnub.github.io/MuirWoods.html">Muir Woods</a></li>
+				  <li><a href="#about">About</a></li>
+				</ul>
+			</nav>
+		<div>
 
 		<div class="container">
 			<div class="row">
 				<div class=“col-sm-4”> </div>
-				<div w3-include-html="\includes\navigation.html"></div>
-
-					<p>I don't have many hobbies, but I LOVE to travel!</p>
+					<p><b>I don't have many hobbies, but I LOVE to travel!</b></p>
 						<div  class="newspaper">
 							<p>Some sample text to show the responsive design.  sample text to show the responsive design.  sample text to show the responsive design.  sample text to show the responsive design.  sample text to show the responsive design.  sample text to show the responsive design.  sample text to show the responsive design.  sample text to show the responsive design.  sample text to show the responsive design.</p>
 						</div>		
 						<br>
+						<div><center>
+						<img src="shrineBuddha.jpg"; width=33%>
+						<img src="hennaLeft.jpg"; width=33%>
+						<img src="woods.jpg"; width=33%>
+						</center></div>
 
-							<p><font color="darkred">More sample text to show the responsive design.  sample text to show the responsive design.  sample text to show the responsive design.  sample text to show the responsive design.  sample text to show the responsive design.  sample text to show the responsive design.  sample text to show the responsive design.  sample text to show the responsive design.  sample text to show the responsive design.  </font></p>	
 				<div class=“col-sm-8”> </div>
 	
 			</div>
 		</div>
 
+		<div style="border: 20px solid black; padding: 5px; margin: 100px; font-size:18px">
+			<h2 align="center">Travels</h2>
+			<table align="center">
+				<tr class="oblique"><th>DATE</th><th width="10px"></th><th>LOCATION</th></tr>
+				<tr><td>Jun 2015</td><td width="10px"></td><td>Portland, Oregon</td></tr>
+				<tr><td>Oct 2015</td><td width="10px"></td><td>Indore, India</td></tr>
+				<tr><td>March 2016</td><td width="10px"></td><td>San Diego, California</td></tr>
+				<tr><td>May 2016</td><td width="10px"></td><td>San Jose, California</td></tr>
+			</table>
+			<br>
+		</div>
 
-		<h2 align="center">Travels</h2>
-		<table align="center">
-			<tr class="oblique"><th>DATE</th><th width="10px"></th><th>LOCATION</th></tr>
-			<tr><td>Jun 2015</td><td width="10px"></td><td>Portland, Oregon</td></tr>
-			<tr><td>Oct 2015</td><td width="10px"></td><td>Indore, India</td></tr>
-			<tr><td>March 2016</td><td width="10px"></td><td>San Diego, California</td></tr>
-			<tr><td>May 2016</td><td width="10px"></td><td>San Jose, California</td></tr>
-		</table>
-		<h2 align="center">Sights Seen</h2>
-		
-		<table class="center">
-			<tr><td><a href="file:///C:/Users/Renuka/Desktop/MuirWoods.html">Muir Woods</a></td></tr>
-			<tr><td><a href="file:///C:/Users/Renuka/Desktop/Dharamsala.html">Dharamsala</a></td></tr>
-			<tr><td>Portland Riverwalk</td></tr>
-			<tr><td>Laguna Beach</td></tr>
-			<tr><td>Newport Beach</td></tr>
-			<tr><td>Huntington Beach</td></tr>
-			<tr><td>Japanese Tea Garden</td></tr>
-			<tr><td>Sausalito</td></tr>
-		</table>
+		<div style="border: 20px solid black; padding: 5px; margin: 100px; font-size:18px">
+
+			<h2 align="center">Sights Seen</h2>
+			
+			<table class="center">
+				<tr><td><a href="file:///C:/Users/Renuka/Desktop/MuirWoods.html">Muir Woods</a></td></tr>
+				<tr><td><a href="file:///C:/Users/Renuka/Desktop/Dharamsala.html">Dharamsala</a></td></tr>
+				<tr><td>Portland Riverwalk</td></tr>
+				<tr><td>Laguna Beach</td></tr>
+				<tr><td>Newport Beach</td></tr>
+				<tr><td>Huntington Beach</td></tr>
+				<tr><td>Japanese Tea Garden</td></tr>
+				<tr><td>Sausalito</td></tr>
+			</table>
+		</div>
 
 	  <script>
 	    var link = document.querySelector('link[rel="import"]');
@@ -74,5 +124,8 @@
 	    document.body.appendChild(el.cloneNode(true));
 	  </script>
 
->>>>>>> 622c479ab910ba28fd899e948a3a211195a7c96c
 	</body>
+
+ 	<footer style="background-color:black; width:100%; border: 5px; padding:10px; margin:5px">
+		<h2 style="text-align:center; font-size:24px; color:darkred"> Renuka Vishnubhakta   2216 West Club View Drive   Glendale, Wisconsin 53209</h2>
+	</footer>

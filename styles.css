@@ -30,7 +30,9 @@ form {
 	color: #CC0000;
 }
 p {
-    color: black;
+    color: black; 
+    font-size: 18px;
+    font-family:century gothic; courier; calibri;
 }
 .boldClass {
 	font-weight:bold;

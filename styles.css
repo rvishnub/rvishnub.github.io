@@ -88,3 +88,8 @@ li.nav a:hover:not(.active) {
 
 }
 
+div.newspaper {
+    -webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+}

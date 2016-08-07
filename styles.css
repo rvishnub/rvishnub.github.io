@@ -1,12 +1,17 @@
 body {
 	background-color: lightblue;
 }
-h1 {
+h1.rv {
 	color: darkblue;
 	}
-h2 {
+h2.rv {
 	font-family: "Matura MT Script Capitals", Times New Roman, Serif;
 	font-size: 30px;
+}
+
+h.ftr {
+    font-family: "Matura MT Script Capitals", Times New Roman, Serif;
+    font-size: 30px;
 }
 
 h3 {

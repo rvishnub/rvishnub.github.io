@@ -1,62 +1,95 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="UTF-8">
-		<title>Dharamshala</title>
-		<link rel="stylesheet" type="text/css" href="styles.css">
-		<meta name ="description" content ="This is a website designed for learning about Renuka's hobby, namely, travel.">
-		<meta name ="keywords" content ="hobby, travel, renuka">
-		<meta name ="author" content ="Renuka">
-	</head>
-	<body>
-	<div class="container">
-				<div class="row">
-					<div class=“col-sm-4”> </div>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dharamsala</title>
+
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="shortcut icon" href="R.ico"/>
+
+    <meta name ="Describing Dharamsala." content ="This is a website designed for learning about Renuka's hobby, namely, travel.">
+    <meta name ="keywords" content ="hobby, travel, renuka, dharamsala, kangra fort, Tibetan art">
+    <meta name ="author" content ="Renuka">
+
+<!--  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+-->
+<!--for nav bar-->
+  <style> 
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height:auto;}
+    }
+  </style>
+</head>
+<body>
+
+<div>
+  <img src="stones.jpg" width=100%>
+</div>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul  class="nav" style="font-family: times new roman; font-size: large">
+        <li class="nav"><a href="http://rvishnub.github.io/index.html">Home</a></li>
+        <li class="nav"><a class="active" href="http://rvishnub.github.io/Dharamsala.html">Dharamshala</a></li>
+        <li class="nav"><a href="http://rvishnub.github.io/MuirWoods.html">Muir Woods</a></li>
+        <li class="nav"><a href="http://rvishnub.github.io/About.html">About Me</a></li>
+       </ul>
+    </div>
+  </div>
+</nav>
 
 
+<!-- Third Container (Grid) -->
+<div class="container-fluid bg-3 text-center">
+  <h2 style="font-family:Matura MT Script Capitals", Times New Roman, Serif;">Dharamshala</h2><br>
+  <div class="row">
+    <div class="col-sm-4">
+      <p>Dharamshala is the city where the Dalai Lama made his home.  In 1959, he fled there, dressed as a common soldier, under the threat of an uprising by the Chinese.  There are many Tibetans living there in peace.</p>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7031573.891114061!2d72.53986863954836!3d30.62308609735797!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391b50df65bd7311%3A0x3e08bdb100c6dc10!2sDharamshala%2C+Himachal+Pradesh+176215%2C+India!5e0!3m2!1sen!2sus!4v1470326993224" class="img-responsive margin" style="width:100%" alt="Map"></iframe>
+    </div>
 
-				<div><!-- this is the navbar-->
-			<nav>
-				<img src="stones.jpg" width=100%>				
-				<ul class="nav" style="font-family: times new roman; font-size: large">
-					<li class="nav"><a href="http://rvishnub.github.io/index.html">Home</a></li>
-					<li class="nav"><a class="active" href="http://rvishnub.github.io/Dharamsala.html">Dharamshala</a></li>
-					<li class="nav"><a href="http://rvishnub.github.io/MuirWoods.html">Muir Woods</a></li>
-					<li class="nav"><a href="http://rvishnub.github.io/About.html">About Me</a></li>
-				</ul>
- 			</nav>
-		</div>
+    <div class="col-sm-4">
+      <p>We flew there from Delhi in a small plane.  We had spent a day in Delhi with my cousin and his family before we flew out.  The Delhi airport was nice -- the Dharamshala airport, however, left something to be desired.</p>
+      <img src="planeToDharamsala.jpg" class="img-responsive margin" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-4">
+      <p>Dharamshala is a small town surrounded by mountains.  We rode in a small van from the airport to our hotel -- a journey of an hour or so.  It felt like an eternity for me.  I made the mistake of tracing our path on my phone and ended up with a bad case of motion sickness.  </p>
+      <img src="cityDharamsala.jpg" class="img-responsive margin" style="width:100%" alt="Image">
+    </div>
+  </div>
+</div>
 
-		<div class="container">
-		<div class="row">
-		<div class=“col-sm-4”> </div>
-		
-		<div>	
-			<h2>Dharamshala</h2>
-			<p>Dharamshala is the place in India where the Dalai Lama lives in exile.</p>
-			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7031573.891114061!2d72.53986863954836!3d30.62308609735797!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391b50df65bd7311%3A0x3e08bdb100c6dc10!2sDharamshala%2C+Himachal+Pradesh+176215%2C+India!5e0!3m2!1sen!2sus!4v1470326993224" width=33% height="300" frameborder="1" style="border:1" allowfullscreen></iframe>
-			<p>We flew there from Delhi in a small plane.</p>
-			<img src="planeToDharamsala.jpg" width=33%>
-			<p>Dharamshala is a small town surrounded by mountains.</p>
-			<img src="cityDharamsala.jpg" width=33%>
-			<p>We visited the Dalai Lama's temple.</p>
-			<img src="templeDalaiLama.jpg" width=33%>
-			<p>We also visited a Tibetan Art Institute.</p>
-			<img src="templeArtInstitute.jpg" width=33%>
-			<p>Our hotel had a small Buddhist shrine.</p>
-			<img src="shrineBuddha.jpg" width=33%>
-			<P>The Dalai Lama's <a href="http://dalailama.com/teachings/dharamsala-guide">website</a> (yes, he has one) has more information about Dharamshala.</p>
-		</div>
-		
-		<div class=“col-sm-8”> </div>
-		</div>
-		</div>
+<div class="container-fluid bg-3 text-center">
+  <h3 class="margin">What we saw there</h3><br>
+  <div class="row">
+    <div class="col-sm-4">
+      <p>We visited the Dalai Lama's temple.  It was the day before a large celebration, and as a result, there was much activity.  Monks were bustling around in their robes, carrying buckets of sweets.  Flowers were being hung on chairs and walls.  We were told that he was in residence, but we were not fortunate enough to see him.  He no longer makes casual, unplanned public appearances -- even in his own temple.</p>
+      <img src="templeDalaiLama.jpg" class="img-responsive margin" style="width:100%" alt="Map">
+    </div>
+    <div class="col-sm-4">
+      <p>We also visited a Tibetan Art Institute.  A young lady (about 20 years old) showed us around.  We saw tapestries and paintings that were created in the same way they were hundreds of years ago.  The gardens were beautiful.  There was a Buddhist monastery at the Institute as well, and a theology school for women.  The Institute was surrounded by hills and fog, but at one point, the mist cleared away and we were able to see a huge mountain -- still only a foothill, but the largest thing I have ever seen in my life. </p>
+      <img src="templeArtInstitute.jpg" class="img-responsive margin" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-4">
+      <p>We also visited the Kangra Fort.  The Kangra Fort is a Rajput fort -- it is the largest fort in the Himalayas and might be the oldest fort in India (and there are hundreds of forts in India).  It is not a beautiful place, but definitely impressive.  We climbed through the fort to its highest level -- the view was breathtaking.  There were sculptures carved into the interior walls, and slits for arrows cut into the exterior walls.</p>
+      <img src="fromKangraFort.jpg" class="img-responsive margin" style="width:100%" alt="Image">
+    </div>
+  </div>
+</div>
+<br>
+<div>
+<P>The Dalai Lama's <a href="http://dalailama.com/teachings/dharamsala-guide">website</a> (yes, he has one) has more information about Dharamshala.</p>
+</P>
 
 
-
-				<div class=“col-sm-8”> </div>
-	
-			</div>
 
 	</body>
 

@@ -1,49 +1,77 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="UTF-8">
-		<title>About Me</title>
-		<link rel="stylesheet" type="text/css" href="styles.css">
-		<meta name ="description" content ="This is a website designed for learning about Renuka's hobby, namely, travel.">
-		<meta name ="keywords" content ="hobby, travel, renuka">
-		<meta name ="author" content ="Renuka">
-	</head>
-	<body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About Me</title>
 
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="shortcut icon" href="R.ico"/>
 
-				<div><!-- this is the navbar-->
-			<nav>
-				<img src="stones.jpg" width=100%>
-				<ul class="nav" style="font-family: times new roman; font-size: large">
-					<li class="nav"><a href="http://rvishnub.github.io/index.html">Home</a></li>
-					<li class="nav"><a href="http://Dharamsala.html">Dharamshala</a></li>
-					<li class="nav"><a href="http://rvishnub.github.io/MuirWoods.html">Muir Woods</a></li>
-					<li class="nav"><a class="active" href="http://rvishnub.github.io/About.html">About Me</a></li>
-				</ul>
-			</nav>
-		</div>
+    <meta name ="description" content ="This is a website designed for learning about Renuka's hobby, namely, travel.">
+    <meta name ="keywords" content ="hobby, travel, renuka">
+    <meta name ="author" content ="Renuka">
 
-		<div class="container">
-		<div class="row">
-		<div class=“col-sm-4”> </div>
-		
-		<div style="newspaper">	
-			<h2>About Me</h2>
+<!--  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+-->
+<!--for nav bar-->
+  <style> 
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height:auto;}
+    }
+  </style>
+</head>
 
-<p>I was born in Winnipeg, Manitoba, Canada.  I moved to the United States when I was 2 years old.  My family lived in New Jersey, then Philadelphia, and then Milwaukee.  I grew up in Glendale.  I went to the University of Wisconsin-Madison and graduated with a Bachelor of Science with Honors in Molecular Biology.
-</p><br>
-<p>I attended the University of Wisconsin Medical School, but I didn't graduate.  I ended up getting a job with a law firm in Milwaukee as a marketing assistant.  This grew into a wonderful career running a nonprofit legal trade association:  The National Association of Minority and Women Law Firms.  
-</p><br>
-<p>I attended Marquette University Law School and graduated in 2010.  I initially worked for the same law firm, but eventually started my own business.
-</p><br>
-<p>During my lifetime, I have traveled to Belize and India:  Belize in 2003 and India in 2008 (and 2015).  I have also traveled around the United States, to California, Louisiana, New York, Pennsylvania, Ohio, Illinois, Minnesota, Massachusetts, New Hampshire, and Texas.</p>
-		</div>
+<body style="background-color:white">
 
-		<div class=“col-sm-8”> </div>
-		</div>
-		</div>
-	</body>
+<div>
+  <img src="stones.jpg" width=100%>
+</div>
 
- 	<footer style="background-color:black; width:100%; border: 5px; padding:10px; margin:5px">
-		<h2 style="text-align:center; font-size:24px; color:darkred"> Renuka Vishnubhakta   2216 West Club View Drive   Glendale, Wisconsin 53209</h2>
-	</footer>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul  class="nav" style="font-family: times new roman; font-size: large">
+        <li class="nav"><a href="http://rvishnub.github.io/index.html">Home</a></li>
+        <li class="nav"><a href="http://rvishnub.github.io/Dharamsala.html">Dharamshala</a></li>
+        <li class="nav"><a href="http://rvishnub.github.io/MuirWoods.html">Muir Woods</a></li>
+        <li class="nav"><a class="active" href="http://rvishnub.github.io/About.html">About Me</a></li>
+       </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container-fluid text-center">
+	<div class="row content">
+	   	<div class="col-sm-4 sidenav">
+	     	<div>
+	         <img src="stoneslong.jpg" style="width:100%">
+	     	</div>
+	     	<br>
+	    </div>   	   
+	    <div class="col-sm-8 sidenav">
+	    	<h2 style="font-family:Matura MT Script Capitals", Times New Roman, Serif;">About Me</h2>
+	    	<div>
+		        <p>I was born in Winnipeg, Manitoba, Canada.  I moved to the United States when I was 2 years old.  My family lived in New Jersey, then Philadelphia, and then Milwaukee.  I grew up in Glendale.  I went to the University of Wisconsin-Madison and graduated with a Bachelor of Science with Honors in Molecular Biology.
+		        </p><br>
+		        <p>I eventually got a job with a law firm in Milwaukee as a marketing assistant.  This grew into a wonderful career running a nonprofit legal trade association:  The National Association of Minority and Women Law Firms.  
+		        </p><br>
+		        <p>I attended Marquette University Law School and graduated in 2010.  I initially worked for the same law firm, but eventually started my own business.
+		        </p><br><br>
+	        </div>
+	    </div>
+    </div>
+</div>
+
+<footer class="container-fluid text-center"; style="background-color:black; width:100%; border: 5px; padding:10px; margin:5px">
+<h.ftr style="text-align:center; font-size:24px; color:darkred"> Renuka Vishnubhakta   2216 West Club View Drive   Glendale, Wisconsin 53209</h.ftr>>
+</footer>
+
+</body>
+
+</html>

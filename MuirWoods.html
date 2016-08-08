@@ -1,93 +1,119 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="UTF-8">
-		<title>Muir Woods</title>
-		<link rel="stylesheet" type="text/css" href="styles.css">
-		<meta name ="description" content ="This is a website designed for learning about Renuka's hobby, namely, travel.">
-		<meta name ="keywords" content ="hobby, travel, renuka">
-		<meta name ="author" content ="Renuka">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Muir Woods.</title>
 
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="shortcut icon" href="R.ico"/>
 
-	</head>
-	<body>
-		<div class="container">
-				<div class="row">
-					<div class=“col-sm-4”> </div>
+    <meta name ="Describing Muir Woods." content ="This is a website designed for learning about Renuka's hobby, namely, travel.">
+    <meta name ="keywords" content ="hobby, travel, renuka, San Francisco, Muir Woods, redwoods">
+    <meta name ="author" content ="Renuka">
 
-				<div><!-- this is the navbar-->
-		
-			<nav>
-				<img src="stones.jpg" class="navimage">
-				<ul class="nav" style="font-family: times new roman; font-size: large">
-					<li class="nav"><a href="http://rvishnub.github.io/index.html">Home</a></li>
-					<li class="nav"><a href="http://rvishnub.github.io/Dharamsala.html">Dharamshala</a></li>
-					<li class="nav"><a class="active" href="http://rvishnub.github.io/MuirWoods.html">Muir Woods</a></li>
-					<li class="nav"><a href="http://rvishnub.github.io/About.html">About Me</a></li>
-				</ul>
-			</nav>
-		</div>
+<!--  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+-->
+<!--for nav bar-->
+  <style> 
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height:auto;}
+    }
+  </style>
+</head>
+<body>
 
-		<div>
-			<h2>Muir Woods</h2>
+<div>
+  <img src="stones.jpg" width=100%>
+</div>
 
-			<div>
-			<img src="woods.jpg" height="300" style="float: left; width: auto; margin: 0 10px 25px 30px; padding: 5px; border: 1px gold">
-			
-			<p>
-			Muir Woods is located north of San Francisco, on the other side of the Golden Gate Bridge.  It is a beautiful place.  A boardwalk was placed so that visitors may walk through the forest without disturbing the trees and plants.  The trees are old and so large that a car could pass through the trunk.  I felt very small and young -- I had felt the same way looking upon the large foothills of the Himalayas.
-			</p>
-			</div>
-			<br>
-			<div>
-			<img src="beach1.jpg" height=auto style="float:right; width: 33%; margin: 20px 0 0px 0px; padding: 5px; border: 1px gold; text-align: center">
-			<p>If you drive all the way past the Woods, you will eventually arrive at Muir Beach.</p>
-			</div>
-			<br>
-			<div>
-			<img src="beach2.jpg" height=auto width=33% float:left>
-			</div>
-			
-		</div>
-			<br>
-			<br>
-		<div style="width:33%">
-				<Form action="mailto:rvishnub@yahoo.com ?Subject=hobbyWebsite" method="post" style="background-color:darkblue; color:white; border:1px solid black; padding:20px; margin: 100px 0 0 10px; width:300px">
-					<fieldset>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul  class="nav" style="font-family: times new roman; font-size: large">
+        <li class="nav"><a href="http://rvishnub.github.io/index.html">Home</a></li>
+        <li class="nav"><a href="http://rvishnub.github.io/Dharamsala.html">Dharamshala</a></li>
+        <li class="nav"><a href="http://rvishnub.github.io/MuirWoods.html">Muir Woods</a></li>
+        <li class="nav"><a class="active" href="http://rvishnub.github.io/About.html">About Me</a></li>
+       </ul>
+    </div>
+  </div>
+</nav>
 
-						<legend><b>Would you like to know more about Muir Woods?</b></legend>
-						<input type="radio" name="moreinfoQuery" value="Yes">Yes<br>
-						<input type="radio" name="moreinfoQuery" value="No">No<br>
-						<br>
+<div>
+	<h2 style="font-family:Matura MT Script Capitals", Times New Roman, Serif;"><center>Muir Woods</center></h2>
+</div>
 
-						<legend><b>Please enter your name:</b></legend>
-						<br>
-						First name: <input type="text" name ="firstName"><br><br>
-						Last name: <input type="text" name="lastName"><br><br>
-						Email address:  <input type="text" name="emailAddress"><br>
-						<br>
+<div class="container-fluid text-center">
+	<div class="row content">
+    	<div class="col-sm-6 sidenav">
+      	<div>
+        <img src="woods.jpg"; alt="Muir Woods."; title="Muir Woods"; width=75%>
+      	</div>
+      	<br>
+       	<div><Form action="mailto:rvishnub@yahoo.com ?Subject=hobbyWebsite" method="post" style="background-color:lightgray; color:black; font-size:small; border:1px solid black; padding:10px; margin: 0 0 0 0; width:75%">
+			<fieldset>
+			<legend style="font-size: medium">Would you like to know more about Muir Woods?</legend>
+				<input type="radio" name="moreinfoQuery" value="Yes">Yes<br>
+				<input type="radio" name="moreinfoQuery" value="No">No<br><br>
 
-						<legend><b>How often do you travel?</b></legend><br>
-						<select input type="status" name="status">
-							<option value="World Traveler">I travel the world, and travel often.</option>
-							<option value="Travel for business">I only travel for business.</option>
-							<option value="Holidays and vacations only">Holidays and vacations only.</option>
-							<option value="I travel once a year">I travel once a year.</option>
-							<option value="I never travel">I never travel.</option>
-							<option value="Just looking">I am just looking.</option>
-						</select>
-						<br>
-						<br>
-						<input type="submit" value="Submit">
-						<input type="reset" value="Reset">
-					</fieldset>
-				</Form>
+				<legend style="font-size: medium">Please enter your name:</legend>
+				<div>First name: <input type="text" name ="firstName"><br><br>
+				Last name: <input type="text" name="lastName"><br><br>
+				Email:  <input type="text" name="emailAddress"><br><br><div>
 
-		</div>
-
-				<div class=“col-sm-8”> </div>
-	</body>
-
+			<legend style="font-size: medium">How often do you travel?</legend>
+				<select input type="status" name="status">
+				<option value="World Traveler">I travel the world, and travel often.</option>
+				<option value="Travel for business">I only travel for business.</option>
+				<option value="Holidays and vacations only">Holidays and vacations only.</option>
+				<option value="I travel once a year">I travel once a year.</option>
+				<option value="I never travel">I never travel.</option>
+				<option value="Just looking">I am just looking.</option>
+				</select>
+				<br>
+				<br>
+				<input type="submit" value="Submit">
+				<input type="reset" value="Reset">
+			</fieldset>
+		</Form></div>
+    </div>
+    
+      <div class="col-sm-6 sidenav">
+      <div>
+        <p>Muir Woods is located north of San Francisco, on the other side of the Golden Gate Bridge. It is a beautiful place. A boardwalk was placed so that visitors may walk through the forest without disturbing the trees and plants. The trees are old and so large that a car could pass through the trunk. I felt very small and young -- I had felt the same way looking upon the large foothills of the Himalayas.</p>
+      </div>
+      <br>
+      <div>
+        <img src="beach1.jpg"; alt="Muir Beach."; title="Muir Beach"; width=75%>
+      </div>
+      <br>
+      <div>
+        <p>If you drive all the way past the Woods, you will eventually arrive at Muir Beach.  It took at least an hour to drive from the elevation of the Woods to the beach.</p>
+      </div>
+      <br>
+      <div>
+        <img src="beach2.jpg"; alt="Muir Beach."; title="Muir Beach"; width=75%>
+      </div>
+      <br>
+       <div>
+        <p>We had a wonderful time climbing the rocks, wading in the ocean, and watching for whales.</p>
+       </div>
+    </div>
+    </div>
+</div>
+	<div>
+		<br>
+		<br>
+	</div>
 	<footer style="background-color:black; width:100%; border: 5px; padding:10px; margin:5px">
 		<h2 style="text-align:center; font-size:24px; color:darkred"> Renuka Vishnubhakta   2216 West Club View Drive   Glendale, Wisconsin 53209</h2>
 	</footer>
+
+</body>
